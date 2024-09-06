@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('bg.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    padding: 20px;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid  rgb(43, 41, 41);
+}
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0 5px;
+}
+
+p {
+    color: #777;
+    margin: 6px;
+}
+
+.Instagram {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.YouTube {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.WhatsApp {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.Twitter {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.Facebook {
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+main {
+    margin-bottom: 20px;
+}
+
+.link-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px auto;
+    width: 250px;
+    height: 18px;
+    background-color: rgb(43, 41, 41);
+    color: #ffffff;
+    text-decoration: none;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    position: transform 0.3s;
+}
+
+.link-button:hover {
+    background: grey;
+    border-color: black;
+}
+
+footer {
+    font-size: 14px;
+    color: grey;
+}
